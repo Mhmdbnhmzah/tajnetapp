@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "168492899687",
+    "project_id": "tajnetapp",
+    "storage_bucket": "tajnetapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168492899687:android:3c6e0060e7f5d721bd23c2",
+        "android_client_info": {
+          "package_name": "com.tajnet.tajnet_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt5nKxDsyU7Yq3Vx0tUKM3s-EsLVg03JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

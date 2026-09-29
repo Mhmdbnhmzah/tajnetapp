@@ -1,0 +1,45 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tajnetapp",
+          "appId": "1:168492899687:android:3c6e0060e7f5d721bd23c2",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "web": {
+        "default": {
+          "projectId": "tajnetapp",
+          "appId": "1:168492899687:web:e73ad0898b94189dbd23c2"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tajnetapp",
+          "configurations": {
+            "android": "1:168492899687:android:3c6e0060e7f5d721bd23c2",
+            "web": "1:168492899687:web:e73ad0898b94189dbd23c2"
+          }
+        }
+      }
+    }
+  }
+}
